@@ -1,4 +1,4 @@
-#!/share/apps/python/anaconda/bin/python
+#!/Users/ravi/anaconda/bin/python
 
 
 import sys
