@@ -1,0 +1,10 @@
+#!/bin/sh -l
+
+#PBS -N matmul-group21
+#PBS -j oe
+#PBS -l nodes=1:ppn=24
+
+module load cs5220
+cd $PBS_O_WORKDIR
+./matmul-group21
+
